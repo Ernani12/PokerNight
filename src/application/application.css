@@ -1,0 +1,189 @@
+#background {
+    -fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(77.0,128.0,77.0) 0.0, rgb(0.0,0.0,0.0) 60.0 );
+    /*-fx-background-color:radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(51,77,179) 0.0, rgb(0,0,0) 100.0 );
+	*/
+    }
+
+#noback {
+	    -fx-background-color: null;
+	
+}
+
+#back {
+	-fx-background-color:radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(51.0,77.0,179.0) 0.0, rgb(0.0,0.0,0.0) 100.0 );
+	
+}
+
+#attention{
+-fx-text-fill: rgb(142.0,32.0,35.0);
+    -fx-padding: 0.0 0.0 0.0 0.0;
+    -fx-font-weight: bold;
+    -fx-font-size:  12.0px;
+        -fx-padding: 5.0 10.0 10.0 10.0;
+    
+	-fx-effect:dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 ) ;
+}
+#field {
+	-fx-background-color: #d0d0d0;
+    -fx-background-radius: 5.0,4.0,3.0,5.0;
+	-fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 );
+    -fx-padding: 10.0 20.0 10.0 20.0;
+	-fx-font-weight: bold;
+    -fx-font-size: 14.0px;
+    -fx-font-family: "Arial";
+	-fx-text-alignment: center;    
+	-fx-text-fill: #38424b; 
+}
+
+#no {
+	 -fx-padding: 3 7 7 7;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 8.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+#ahh {
+	-fx-font-size: 22px;
+	-fx-text-fill: rgb(179,26,26);
+    -fx-text-alignment: center;
+}
+
+#warning {
+	-fx-text-fill: rgb(255.0,0.0,0.0);
+	
+}
+ 
+#manual {
+	-fx-font-size: 40.0px;
+	-fx-text-fill:rgb(230.0,230.0,230.0);
+    -fx-padding: 0.0 14.0 7.0 14.0;
+    -fx-graphic:url("manual.png"); 
+} 
+ 
+#dollars {
+		-fx-font-size: 40.0px;
+}
+ 
+#help {
+	-fx-text-fill: rgb(255.0,255.0,255.0);
+} 
+ 
+#name {
+    -fx-font-family: "Arial";
+	-fx-font-size: 15.0px;
+	-fx-font-weight: bold;
+    -fx-padding: 10.0 20.0 10.0 20.0;
+}
+
+#mainTitle {
+	-fx-text-fill:  white;
+    -fx-font-size:  20.0px;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-padding: 0.0 0.0 0.0 0.0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 10.0, 0.0 , 0.0 , 1.0 );
+}
+
+#name {
+	-fx-text-fill: rgb(70.0,69.0,58.0);
+	
+}
+
+#winner {
+	-fx-font-size: 60.0px;
+	-fx-text-fill:  white;
+	-fx-effect: dropshadow( three-pass-box , #38424b , 15.0, 0.0 , 0.0 , 1.0 );
+}
+
+#tableau {
+	-fx-stroke-width: 4.0px;
+	-fx-stroke:rgb(121.0,32.0,32.0);
+}
+
+.label {
+	-fx-text-fill: white;
+    -fx-padding: 5.0 10.0 5.0 10.0;
+    -fx-font-weight: bold;
+    -fx-font-size:  15.0px;
+	-fx-effect:dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 ) ;
+}
+
+#manualButton:disabled {
+	-fx-opacity: 1.0;
+}
+
+#dev {
+	-fx-font-size: 60px;
+	-fx-text-fill: rgb(230,77,77);
+}
+#dev1 {
+	-fx-font-size: 35px;
+}
+ .button:focused {
+	 -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #ea7f4b, #c54e2c);
+        
+ }
+
+#lang1 {
+	-fx-text-fill: rgb(179,230,179);
+	-fx-font-size: 20px;
+}
+
+#lang2 {
+	-fx-text-fill: rgb(230,77,77);
+	-fx-font-size: 15px;
+}
+
+.button {
+    -fx-padding: 8.0 15.0 15.0 15.0;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 8.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #ea7f4b, #c54e2c);
+        
+    -fx-effect: dropshadow( three-pass-box , #d0d0d0 , 10.0, 0 , 0 , 0.0 );
+}
+.button:pressed {
+    -fx-padding: 10.0 15.0 13.0 15.0;
+    -fx-background-insets: 2.0 0.0 0.0 0.0,2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+    
+    -fx-effect: dropshadow( three-pass-box , rgb(230,77,77) , 10.0, 0 , 0 , 0.0 );
+}
+
+.button:disabled {
+	
+    -fx-opacity: 0.3;
+}
+
+#pot {
+	-fx-font-size: 23px;
+}
+
+#huge {
+	-fx-font-size: 40px;
+}
